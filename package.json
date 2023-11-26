@@ -1,0 +1,22 @@
+{
+  "name": "js-template",
+  "description": "JavaScript template generator",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jackie Tsien",
+    "email": "jackie10673311@gmail.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "yarn workspaces run lint",
+    "test": "yarn workspaces run test",
+    "build": "yarn workspaces run build"
+  },
+  "devDependencies": {
+    "lerna": "^8.0.0"
+  }
+}
